@@ -1,0 +1,52 @@
+p {
+  font-family: 'bank';
+  font-size: 20px;
+}
+
+#section-title {
+  font-size: 40px;
+}
+
+#prev-projects {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  background-color: black;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.prev-proj-overview {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.box {
+  display: inline-flex;
+  flex-direction: row;
+  width: 70%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-image {
+  padding-right: 20px;
+}
+
+.box-img {
+  object-fit: cover;
+  height: 90%;
+  width: 90%;
+}
+
+.right-aligned-picture {
+  display: block;
+  margin-left: 5vw;
+  margin-right: 0;
+}
