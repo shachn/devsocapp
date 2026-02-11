@@ -3,3 +3,43 @@ li {
   font-size: 20px;
 }
 
+
+.strip {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+
+#about-me-block {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#cat-block {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pictures{
+  width: 350px;
+  height: 350x;
+  padding: 20px;
+}
+
+@font-face {
+  font-family: 'bank';
+  src: url('fonts/F25_Bank_Printer.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
